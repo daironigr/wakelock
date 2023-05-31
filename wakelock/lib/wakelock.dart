@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/foundation.dart';
 import 'package:wakelock_platform_interface/wakelock_platform_interface.dart';
 
@@ -22,7 +20,7 @@ var wakelockPlatformInstance = _defaultPlatformInstance;
 WakelockPlatformInterface get _defaultPlatformInstance {
   // We want to return early on web as the platform checks are unsupported on
   // web.
-  if (kIsWeb) return WakelockPlatformInterface.instance;
+  // if (kIsWeb) return WakelockPlatformInterface.instance;
 
   // if (Platform.isMacOS) {
   //   // Assigning the macOS platform instance like this is not optimal.

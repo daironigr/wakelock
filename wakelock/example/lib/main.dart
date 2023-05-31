@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wakelock/wakelock.dart';
 
 void main() {
-  runApp(WakelockExampleApp());
+  runApp(const WakelockExampleApp());
 }
 
 /// Example app widget demonstrating how to use the wakelock plugin.
